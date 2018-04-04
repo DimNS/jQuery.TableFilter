@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TableFilter - jQuery-плагин для фильтрации строк таблиц путем ввода символов в поле фильтра</title>
+
+    <style type="text/css">
+        .filter {
+            margin-bottom: 5px;
+            padding: 2px 3px;
+        }
+
+        .table td {
+            padding: 4px;
+            border: 1px #ccc solid;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" class="filter" data-tablefilter="#table" placeholder="Начните вводить для фильтрации">
+
+    <table id="table" class="table">
+        <tbody>
+            <tr>
+                <td>John Dow</td>
+                <td>Worker</td>
+            </tr>
+            <tr>
+                <td>Jane Dow</td>
+                <td>Stewardess</td>
+            </tr>
+            <tr>
+                <td>Eva Green</td>
+                <td>Actress</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="dist/jquery.tablefilter.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('.filter').TableFilter();
+        });
+    </script>
+</body>
+</html>

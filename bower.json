@@ -1,0 +1,13 @@
+{
+  "name": "jquery-tablefilter",
+  "description": "Плагин для фильтрации строк таблиц путем ввода символов в поле фильтра",
+  "homepage": "https://github.com/DimNS/jQuery.TableFilter",
+  "authors": [
+    "DimNS <atomcms@ya.ru>"
+  ],
+  "keywords": [
+    "tablefilter",
+    "jquery.tablefilter"
+  ],
+  "license": "MIT"
+}
