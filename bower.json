@@ -3,7 +3,7 @@
   "description": "Плагин для фильтрации строк таблиц путем ввода символов в поле фильтра",
   "homepage": "https://github.com/DimNS/jQuery.TableFilter",
   "authors": [
-    "DimNS <atomcms@ya.ru>"
+    "DimNS <dimns@dimns.ru>"
   ],
   "keywords": [
     "tablefilter",

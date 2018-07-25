@@ -1,4 +1,14 @@
 {
+  "name": "jquery-tablefilter",
+  "description": "Плагин для фильтрации строк таблиц путем ввода символов в поле фильтра",
+  "version": "1.0.1",
+  "homepage": "https://github.com/DimNS/jQuery.TableFilter",
+  "author": "DimNS <dimns@dimns.ru>",
+  "keywords": [
+    "tablefilter",
+    "jquery.tablefilter"
+  ],
+  "license": "MIT",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-uglify": "^1.5.4",

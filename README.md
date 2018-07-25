@@ -9,6 +9,10 @@
 ```bash
 bower install --save jquery-tablefilter
 ```
+или
+```bash
+npm i jquery-tablefilter
+```
 
 ## Подключение
 ```javascript
