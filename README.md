@@ -44,3 +44,14 @@ npm i jquery-tablefilter
     });
 </script>
 ```
+
+## Параметры
+- **afterFilter** *{null|function}* (по умолчанию: `null`) - функция обратного вызова, срабатывает каждый раз после применения фильтра
+  Применение:
+  ```javascript
+  $('.filter').TableFilter({
+      afterFilter: function() {
+          console.log('afterFilter fired');
+      }
+  });
+  ```
